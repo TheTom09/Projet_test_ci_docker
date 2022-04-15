@@ -21,6 +21,6 @@ jobs:
       - name: run docker image
         run: docker run test
       - name: docker tag
-        run: docker tag test:latest thomasynov/ynov_test_unitaire:test_image
+        run: docker tag test:latest thetom09/ynov_test_unitaire:test_image
       - name: docker push
-        run: docker push thomasynov/ynov_test_unitaire:test_image
+        run: docker push thetom09/ynov_test_unitaire:test_image
