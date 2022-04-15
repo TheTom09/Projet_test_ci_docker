@@ -13,6 +13,7 @@ jobs:
 
       - name: Run tests
         run : |
+          pip install numpy
           pip install pytest
           pytest
       - name: build docker image

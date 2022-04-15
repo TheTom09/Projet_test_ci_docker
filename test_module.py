@@ -20,7 +20,7 @@ def test_Person_hit():
     person2 = Person("Receive")
     person1.hit(person2)
     expected_result = 90
-    result = person1.get_life_points()
+    result = person2.get_life_points()
     assert result == expected_result
 
 def test_Person_isDead_dead():
